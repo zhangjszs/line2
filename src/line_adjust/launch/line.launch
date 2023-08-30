@@ -1,0 +1,7 @@
+<launch>
+  <node name="line_creat_node" pkg="line_adjust" type="main" output="screen"/>
+  <node name="line_rviz_node" pkg="line_rviz" type="line_rviz" output="screen" />
+   <node pkg="rviz" type="rviz" name="rviz" args="-d /home/tb/line_creat2/src/lidar_cluster/config/LINE.rviz" required="true" />
+  <!-- 启动另一个launch文件 -->
+  <include file="/home/tb/line_creat2/src/lidar_cluster/launch/lidar_cluster.launch" />
+</launch>

@@ -1,0 +1,4 @@
+<launch>
+    <include file="/home/tb/line_creat2/src/line_adjust/launch/line.launch" />
+    <include file="/home/tb/line_creat2/src/line_adjust/launch/pp.launch" />
+</launch>

@@ -1,0 +1,4 @@
+<launch>
+  <node name="line_pp_node" pkg="line_pp" type="pp" output="screen" />
+  <node name="line_pp_node1" pkg="line_pp" type="roscontrol" output="screen" />
+</launch>
