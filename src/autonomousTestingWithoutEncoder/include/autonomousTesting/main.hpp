@@ -106,7 +106,7 @@ void sinSteering(){
 		nowStatus = 0;
 	}
 }
-bool sensorcheckrun()
+void sensorcheckrun()
 {
-	return !sensorcheck;
+	sensorcheck = true;
 }
