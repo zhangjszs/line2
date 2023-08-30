@@ -50,7 +50,8 @@ void callback(const common_msgs::vehicle_statusConstPtr& s){
 }
 
 int main(int argc, char **argv) {
-    if (sensorcheckrun()) {
+    if (sensorcheck) 
+	{
         ros::init(argc, argv, "autonomousTesting");
         ros::NodeHandle n;
         init();
